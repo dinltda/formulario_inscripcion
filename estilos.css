@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eae8ee;
+    background-image:  radial-gradient(#100f0f 0.45px, transparent 0.45px), radial-gradient(#100f0f 0.45px, #eae8ee 0.45px);
+    background-size: 18px 18px;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    min-height: 100vh;
+}
+.form{
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 450px;
+    padding: .5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -1px rgb(0 0 0 /100%);
+    text-align: center;
+    
+}
+
+.form__title{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.form__paragraph{
+    font-size: 300;
+    text-align: justify;
+}
+
+.form__link{
+    font-weight: 400;
+    color:#000
+}
+.form__container{
+    margin-top: 1em;
+    display: grid;
+    gap: 0em;
+}
+.form__group{
+    position: relative;
+    --color:#5757577e; 
+}
+
+.form__input{
+    
+    font-size: 1rem;
+    padding: .5em .3em;
+    font-family: 'Roboto', sans-serif;
+    /*display: block; /* Hace que los campos de entrada sean elementos de bloque para que ocupen toda la línea */
+    width: 100%; /* Ajusta el ancho de los campos de entrada al 100% para que ocupen todo el ancho disponible */
+    border-radius: 1em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form__submit{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .8em .4em;
+    border-radius: .5em;
+}
+
+.form__boton{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .4em .4em;
+    border-radius: .5em;
+    box-shadow: 0 3px 6px -1px rgb(0 0 0 /100%);
+}
+.form__select{
+    height: 40px;
+    padding: .4em .4em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.scrollable-textold {
+    text-align: justify;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-wrap: normal;
+       
+}
+
+.scrollable-text-container {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    overflow-x: scroll;
+  }
+  
+  .scrollable-text {
+    white-space: nowrap;
+  }
+  .center {
+    /* Este formato es para que las alertas de scrip queden en el medio de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center
+    height: 100vh;
+  }
+
+  .form__ratio2{ /*Este codigo funciona como si fuera un contenedor de los ratios dentro del formato ppal y lo desplaza a un margen de 6em de la izquierda para que se vea como centrado */
+    background-color: #fff;
+    margin: 1em 6em ;/* el 1em o sea el primero es el margen vertical y el 6em es el marvan izquierdo */
+    width: 60%; /* se deja un ancho de 60% en el ancho maximo de 450*/
+    max-width: 450px;
+    padding: 0,1em 2em;
+    border-radius: 10px;
+    text-align: left;
+   
+  }
+
+  .form__ratio{ 
+    font-size: 16px; /* Establece el tamaño de fuente a 16 píxeles o cualquier otra medida que desees */
+    text-align: left; /* Alinea el texto a la izquierda */
+    width: 100%; /* Ajusta el ancho del menú al 100% para asegurarse de que ocupe todo el ancho disponible */
+    display: block; /* Asegura que el menú sea un elemento de bloque */
+    padding: 0,7em ;
+    
+  }
+
+
+.form__label {
+   /* display: block; /* Hace que las etiquetas sean elementos de bloque para que ocupen toda la línea */
+
+}
+
+.form__line {
+    display: block; /* Hace que las líneas sean elementos de bloque para que ocupen toda la línea */
+}
+
+@media (max-width:460px) {
+    .form__title{
+        font-size: 1.8rem;
+    }
+    
+}
