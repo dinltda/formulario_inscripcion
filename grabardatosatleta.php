@@ -22,8 +22,8 @@
             
             ini_set('SMTP', 'smtp.gmail.com');
             ini_set('smtp_port', 465);
-            ini_set('username', 'clubolimpus@clubol.org');
-            ini_set('password', 'salitreplaza05%%1');
+            ini_set('username', 'xxxxxx@gmail.com');
+            ini_set('password', 'centrocomercial%%1');
 
             
                 // Configurar los datos del correo
